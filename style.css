@@ -60,7 +60,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    gap:150px;
+    gap:40px;
 
 } 
 .hero-content{
