@@ -1,209 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naveen P Kavalakoppa | Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naveen Kavalakoppa | Software Engineer</title>
+<meta name="description" content="Naveen Kavalakoppa — Software Engineer. Full-stack development with Django, FastAPI and React, plus applied computer vision projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="glow-orb orb-1"></div>
-    <div class="glow-orb orb-2"></div>
-    <div class="glow-orb orb-3"></div>
+<a class="skip-link" href="#main">Skip to content</a>
 
-    <nav class="glass-nav">
-        <div class="logo">N<span class="gradient-text">K</span></div>
-        
-        <div class="hamburger" id="hamburger">
-            <i class="fas fa-bars"></i>
-        </div>
-
-        <div class="nav-links" id="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact" class="btn-outline">Contact Me</a>
-        </div>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="brand">Naveen Kavalakoppa</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="./images/Resume.pdf" download class="btn btn-primary nav-cta">Resume</a>
     </nav>
+  </div>
+</header>
 
-    <header id="about" class="hero container">
-        <div class="hero-content slide-in-left">
-            <p class="subtitle">Welcome to my universe 🚀</p>
-            <h1>Hi, I'm <br><span class="gradient-text big-name">Naveen Pandu kavalakoppa</span></h1>
-            <h2 class="typing-role">Full-Stack & AI Developer</h2>
-            <p class="bio">
-                I build scalable web and mobile applications and integrate intelligent machine learning models. Turning complex problems into beautiful, functional, and user-friendly software.
-            </p>
-            <div class="btn-group">
-                <a href="#projects" class="btn-glow">Explore My Work</a>
-                <a href="./images/Resume.pdf" download class="btn-glass">
-                    <i class="fas fa-download"></i> Get Resume
-                </a>
-            </div>
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Software Engineer &mdash; Full-Stack &amp; Applied AI</p>
+        <h1>Naveen Kavalakoppa</h1>
+        <p class="hero-lede">
+          I build reliable full-stack systems with Django, FastAPI and React,
+          and apply computer vision models to real-world problems. Final-year
+          CSE student, currently looking for SDE&nbsp;1 opportunities.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="./images/Resume.pdf" download class="btn btn-outline">Download Resume</a>
         </div>
-        
-        <div class="hero-image slide-in-right">
-            <div class="image-wrapper">
-                <img src="./images/img1.jpeg" alt="Naveen Pandu Kavalakoppa">
-                <div class="floating-badge badge-1"><i class="fab fa-react"></i></div>
-                <div class="floating-badge badge-2"><i class="fab fa-python"></i></div>
-            </div>
+
+        <div class="status-row">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Open to Software Engineer / SDE&nbsp;1 roles</span>
         </div>
-    </header>
 
-    <section id="skills" class="skills-section container fade-in-up">
-        <h2 class="section-title">My <span class="gradient-text">Arsenal</span></h2>
-        <div class="skills-grid">
-            <div class="skill-card glass-panel">
-                <i class="fas fa-laptop-code skill-icon text-cyan"></i>
-                <h3>Languages</h3>
-                <p>Python, C, HTML5, CSS3, JavaScript</p>
-            </div>
-            <div class="skill-card glass-panel">
-                <i class="fas fa-server skill-icon text-purple"></i>
-                <h3>Framework & Libraries</h3>
-                <p>Django, FastAPI, LangChain, React, REST APIs, React Native, Expo</p>
-            </div>
-            <div class="skill-card glass-panel">
-                <i class="fas fa-database skill-icon text-pink"></i>
-                <h3>Database & Cloud</h3>
-                <p>PostgreSQL, MongoDB, MySQL, Firebase, Git, CI/CD</p>
-            </div>
-            <div class="skill-card glass-panel">
-                <i class="fas fa-brain skill-icon text-orange"></i>
-                <h3>AI & ML</h3>
-                <p>OpenCV, YOLOv5, Blip-processor, Hugging Face</p>
-            </div>
+        <dl class="meta-list">
+          <div><dt>Education</dt><dd>Government Engineering College, Hassan &mdash; B.E. CSE, 2026</dd></div>
+          <div><dt>Location</dt><dd>Karnataka, India</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-photo reveal">
+        <img src="./images/img1.jpeg" alt="Portrait of Naveen Kavalakoppa">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="wrap">
+      <p class="section-label">About</p>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a final-year Computer Science &amp; Engineering student at
+          Government Engineering College, Hassan, focused on backend and
+          full-stack development. I recently completed a Python Full Stack
+          Development program at QSpiders, Bengaluru, and I build projects
+          I can speak to in depth &mdash; I'd rather ship less and understand
+          everything I ship than pad a list with things I can't defend in
+          an interview.
+        </p>
+        <ul class="timeline">
+          <li>
+            <span class="timeline-date">2022&ndash;2026</span>
+            <span class="timeline-title">B.E., Computer Science &amp; Engineering</span>
+            <span class="timeline-sub">Government Engineering College, Hassan</span>
+          </li>
+          <li>
+            <span class="timeline-date">Jan&ndash;Jun 2026</span>
+            <span class="timeline-title">Python Full Stack Development Training</span>
+            <span class="timeline-sub">QSpiders, Basavanagudi, Bengaluru</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <div class="wrap">
+      <p class="section-label">Skills</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <p>Python, C, JavaScript, HTML5, CSS3</p>
         </div>
-    </section>
-
-    <section id="projects" class="projects-section container fade-in-up">
-        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
-        
-        <div class="projects-grid">
-            <!-- Project 1: AI Document Assistant -->
-            <div class="project-card glass-panel">
-                <div class="project-content">
-                    <div class="project-header">
-                        <i class="fas fa-file-invoice text-pink project-icon"></i>
-                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>AI Document Assistant</h3>
-                    <p>A Retrieval-Augmented Generation (RAG) system utilizing FastAPI to parse, chunk, and embed PDFs using Hugging Face transformers for context-grounded natural language query accuracy.</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">FastAPI</span>
-                        <span class="tag">LangChain</span>
-                        <span class="tag">Hugging Face</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2: Employee Leave Management -->
-            <div class="project-card glass-panel">
-                <div class="project-content">
-                    <div class="project-header">
-                        <i class="fas fa-user-check text-purple project-icon"></i>
-                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>Employee Leave Management</h3>
-                    <p>A web-based workflow platform built using Django that automates application scheduling, utilizes the internal ORM for strict balance constraints, and secures multi-role dashboard panels.</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Django</span>
-                        <span class="tag">MySQL</span>
-                        <span class="tag">HTML/CSS</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3: AI Blind Assistance -->
-            <div class="project-card glass-panel">
-                <div class="project-content">
-                    <div class="project-header">
-                        <i class="fas fa-eye text-cyan project-icon"></i>
-                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>AI Blind Assistance</h3>
-                    <p>A real-time object detection system using YOLOv5 and a BLIP processor that maps visual scenes into descriptive natural language strings transcribed directly into clear voice tracking data[cite: 1, 2].</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">YOLOv5</span>
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">Text-To-Speech</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4: Smart Queue System -->
-            <div class="project-card glass-panel">
-                <div class="project-content">
-                    <div class="project-header">
-                        <i class="fas fa-hospital-user text-purple project-icon"></i>
-                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
-                    </div>
-                    <h3>Smart Queue System</h3>
-                    <p>A full-stack hospital management dashboard with real-time patient queue updates and Google Maps distance-aware routing[cite: 2].</p>
-                    <div class="tags">
-                        <span class="tag">React Native</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">MongoDB</span>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <p>Django, FastAPI, REST APIs, React, React Native, LangChain</p>
         </div>
-    </section>
-
-    <section id="contact" class="contact-section container fade-in-up">
-        <div class="contact-box glass-panel">
-            <h2>Let's create something <span class="gradient-text">amazing</span></h2>
-            <p>I'm currently open for internships and full-time roles. Let's connect!</p>
-            
-            <div class="social-links">
-                <a href="mailto:naveenkavalakoppa@gmail.com" class="social-btn" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://linkedin.com/in/naveenka31" target="_blank" class="social-btn" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="tel:8088437294" class="social-btn" title="Phone">
-                    <i class="fas fa-phone"></i>
-                </a>
-            </div>
-            <p class="location"><i class="fas fa-map-marker-alt"></i> Karnataka, India</p>
+        <div class="skill-group">
+          <h3>Databases &amp; Infrastructure</h3>
+          <p>MySQL, PostgreSQL, MongoDB, Firebase, Docker, Git, CI/CD (GitHub Actions)</p>
         </div>
-    </section>
+        <div class="skill-group">
+          <h3>Applied AI / Computer Vision</h3>
+          <p>YOLOv5, OpenCV, BLIP, Hugging Face Transformers</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2026 Naveen Pandu Kavalakoppa. Crafted with passion.</p>
-    </footer>
+  <section id="projects" class="section projects">
+    <div class="wrap">
+      <p class="section-label">Projects</p>
 
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-links');
-        const icon = hamburger.querySelector('i');
+      <article class="project reveal">
+        <div class="project-head">
+          <h3>Empleave &mdash; Employee Leave Management System</h3>
+          <a class="project-link" href="https://github.com/Naveen-Ka31/EmpLeave" target="_blank" rel="noopener">
+            View on GitHub <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+        <p>
+          A full rebuild of a multi-role leave management platform. Employees,
+          managers and admins get separate dashboards with scoped permissions;
+          approvals are routed and confirmed by email. Packaged with Docker and
+          deployed through a GitHub Actions CI/CD pipeline.
+        </p>
+        <ul class="tags">
+          <li>Django</li><li>MySQL</li><li>Bootstrap 5</li><li>Docker</li><li>GitHub Actions</li>
+        </ul>
+      </article>
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            if(navLinks.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        });
+      <article class="project reveal">
+        <div class="project-head">
+          <h3>AI Vision Pipeline for Blind Assistance</h3>
+          <a class="project-link" href="https://github.com/Naveen-Ka31/AI-For-Blind-Assistance" target="_blank" rel="noopener">
+            View on GitHub <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+        <p>
+          A real-time assistive vision system. YOLOv5 detects objects in the
+          camera feed, BLIP generates a natural-language description of the
+          scene, and the result is read aloud through text-to-speech &mdash;
+          built with attention to inference speed for real-time use.
+        </p>
+        <ul class="tags">
+          <li>YOLOv5</li><li>OpenCV</li><li>BLIP</li><li>pyttsx3</li><li>Python</li>
+        </ul>
+      </article>
 
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-                icon.classList.add('fa-bars');
-                icon.classList.remove('fa-times');
-            });
-        });
-    </script>
+      <article class="project reveal">
+        <div class="project-head">
+          <h3>AI Document Assistant (RAG)</h3>
+          <span class="project-link project-link--pending">Repo coming soon</span>
+        </div>
+        <p>
+          A retrieval-augmented generation system that parses and chunks PDF
+          documents, embeds them, and answers natural-language questions
+          grounded in the source text &mdash; served through a FastAPI backend.
+        </p>
+        <ul class="tags">
+          <li>Python</li><li>FastAPI</li><li>LangChain</li><li>Hugging Face</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Let's talk about an opportunity</h2>
+        <p class="contact-lede">I'm currently open to internships and full-time Software Engineer roles. The fastest way to reach me is email.</p>
+      </div>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:naveenkavalakoppa@gmail.com">naveenkavalakoppa@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Phone</span>
+          <a href="tel:8088437294">+91 80884 37294</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/naveenka31" target="_blank" rel="noopener">linkedin.com/in/naveenka31</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/Naveen-Ka31" target="_blank" rel="noopener">github.com/Naveen-Ka31</a>
+        </li>
+        <li>
+          <span class="contact-label">Location</span>
+          <span>Karnataka, India</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>&copy; 2026 Naveen Kavalakoppa</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
